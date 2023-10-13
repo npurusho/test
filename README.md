@@ -3,12 +3,11 @@
 Certainly! In summary, we've discussed various aspects of image and video preprocessing, inference, and post-processing in machine learning applications:
 
 ### Image and Video Preprocessing:
-- **Preprocessing Steps:** Common preprocessing steps include resizing, normalization, data augmentation, grayscale conversion, noise reduction, object detection, and cropping.
+- **Preprocessing Steps:** Common preprocessing steps include resizing, normalization, grayscale conversion, noise reduction, object detection, and cropping.
 - **Hardware for Preprocessing:** Preprocessing can be done on both CPUs and GPUs, with GPUs being advantageous for computationally intensive tasks.
-- **Data Augmentation:** Techniques like rotation, flipping, and color jittering are used during training to enhance dataset diversity and model robustness.
 
 ### Preprocessing During Inference:
-- **Inference Preprocessing:** During inference, tasks like resizing, normalization, color space conversion, padding, cropping, and channel order adjustment are applied to prepare data for the model.
+- **Inference Preprocessing:** During inference, tasks like **resizing, normalization, color space conversion, padding, cropping, and channel order adjustment** are applied to prepare data for the model.
 - **Importance of Efficiency:** In real-time applications, efficient preprocessing is vital due to high frame rates and low latency requirements.
 
 ### Typical Time Distribution in Video Inference Pipeline:
